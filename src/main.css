@@ -1,5 +1,16 @@
+:root {
+  --color-bg: white;
+}
+:root[data-theme="dark"] {
+  --color-bg: black;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
 }
