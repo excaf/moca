@@ -2,6 +2,8 @@
   --color-bg: #ffffff;
   --color-bg-hover: #f4f4f4;
   --color-text: #222222;
+
+  --theme-transition: 400ms;
 }
 :root[data-theme="dark"] {
   --color-bg: #20262c;
@@ -17,5 +19,7 @@
 
 body {
   background-color: var(--color-bg);
-  color: var(--color-text)
+  color: var(--color-text);
+  transition: background-color var(--theme-transition),
+              color var(--theme-transition);
 }
