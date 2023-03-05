@@ -4,12 +4,14 @@ specifiers:
   '@types/react': ^18.0.27
   '@types/react-dom': ^18.0.10
   '@vitejs/plugin-react': ^3.1.0
+  lucide-react: ^0.122.0
   react: ^18.2.0
   react-dom: ^18.2.0
   typescript: ^4.9.3
   vite: ^4.1.0
 
 dependencies:
+  lucide-react: 0.122.0_react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -696,6 +698,14 @@ packages:
     dependencies:
       yallist: 3.1.1
     dev: true
+
+  /lucide-react/0.122.0_react@18.2.0:
+    resolution: {integrity: sha512-CWPqOK0pSgi+HBZh4Xh1i+0zBSZdWw9ulFVHpeWWszp1Oz5LA1S71LhDhelWq+8afHWPrRha0SNyQhfhOIb4EQ==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /magic-string/0.27.0:
     resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}

@@ -1,8 +1,12 @@
 :root {
-  --color-bg: white;
+  --color-bg: #ffffff;
+  --color-bg-hover: #f4f4f4;
+  --color-text: #222222;
 }
 :root[data-theme="dark"] {
-  --color-bg: black;
+  --color-bg: #20262c;
+  --color-bg-hover: #2c3238;
+  --color-text: #ece8f7;
 }
 
 * {
@@ -13,4 +17,5 @@
 
 body {
   background-color: var(--color-bg);
+  color: var(--color-text)
 }
